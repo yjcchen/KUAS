@@ -38,7 +38,7 @@ namespace ConsoleApplication1
 
             stations.ForEach(x =>
             {
-                Console.WriteLine(string.Format("ID{0},時間{1},高度{2}", x.StationIdentifier, x.RecordTime, x.WaterLevel));
+                Console.WriteLine(string.Format("ID: {0}, 時間: {1}, 高度: {2}", x.StationIdentifier, x.RecordTime, x.WaterLevel));
             });
         }
 
