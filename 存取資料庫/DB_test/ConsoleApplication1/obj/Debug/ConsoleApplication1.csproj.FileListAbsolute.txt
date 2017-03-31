@@ -8,3 +8,13 @@ D:\Github\me\存取資料庫\DB_test\ConsoleApplication1\obj\Debug\ConsoleApplic
 D:\Github\me\存取資料庫\DB_test\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
 D:\Github\me\存取資料庫\DB_test\ConsoleApplication1\bin\Debug\App_Data\water.mdf
 D:\Github\me\存取資料庫\DB_test\ConsoleApplication1\bin\Debug\App_Data\water_log.ldf
+E:\github\own\存取資料庫\DB_test\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+E:\github\own\存取資料庫\DB_test\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+E:\github\own\存取資料庫\DB_test\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+E:\github\own\存取資料庫\DB_test\ConsoleApplication1\bin\Debug\App_Data\water.mdf
+E:\github\own\存取資料庫\DB_test\ConsoleApplication1\bin\Debug\App_Data\water_log.ldf
+E:\github\own\存取資料庫\DB_test\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\github\own\存取資料庫\DB_test\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\github\own\存取資料庫\DB_test\ConsoleApplication1\bin\Debug\Models.dll
+E:\github\own\存取資料庫\DB_test\ConsoleApplication1\bin\Debug\Models.pdb
+E:\github\own\存取資料庫\DB_test\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache

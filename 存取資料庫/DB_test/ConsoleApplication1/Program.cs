@@ -15,12 +15,16 @@ namespace ConsoleApplication1
 
             var db = new JUIN.Repository.DataRepository();
 
-            var stations = import.FindStations(@"E:\water.xml");
+            //新增資料至資料庫
+            //var stations = import.FindStations(@"E:\water.xml");
 
-            stations.ToList().ForEach(x =>
-            {
-                db.Creat(x);
-            });
+            //stations.ToList().ForEach(x =>
+            //{
+            //    db.Creat(x);
+            //});
+
+            //讀取資料表資料
+            var stations = db.FindAllStations();
 
             showData(stations);
 
@@ -34,8 +38,10 @@ namespace ConsoleApplication1
 
             stations.ForEach(x =>
             {
-                Console.WriteLine(string.Format("id{0},時間{1},高度{2}", x.StationIdentifier, x.RecordTime, x.WaterLevel));
+                Console.WriteLine(string.Format("ID{0},時間{1},高度{2}", x.StationIdentifier, x.RecordTime, x.WaterLevel));
             });
         }
+
+        
     }
 }
