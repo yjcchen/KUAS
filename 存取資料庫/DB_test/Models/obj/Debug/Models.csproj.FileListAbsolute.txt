@@ -1,0 +1,5 @@
+D:\Github\me\存取資料庫\DB_test\Models\bin\Debug\Models.dll
+D:\Github\me\存取資料庫\DB_test\Models\bin\Debug\Models.pdb
+D:\Github\me\存取資料庫\DB_test\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+D:\Github\me\存取資料庫\DB_test\Models\obj\Debug\Models.dll
+D:\Github\me\存取資料庫\DB_test\Models\obj\Debug\Models.pdb
