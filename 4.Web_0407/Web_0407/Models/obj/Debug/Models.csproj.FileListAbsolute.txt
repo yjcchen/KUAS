@@ -1,0 +1,15 @@
+D:\Github\me\存取資料庫\DB_test\Models\bin\Debug\Models.dll
+D:\Github\me\存取資料庫\DB_test\Models\bin\Debug\Models.pdb
+D:\Github\me\存取資料庫\DB_test\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+D:\Github\me\存取資料庫\DB_test\Models\obj\Debug\Models.dll
+D:\Github\me\存取資料庫\DB_test\Models\obj\Debug\Models.pdb
+E:\github\own\存取資料庫\DB_test\Models\bin\Debug\Models.dll
+E:\github\own\存取資料庫\DB_test\Models\bin\Debug\Models.pdb
+E:\github\own\存取資料庫\DB_test\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+E:\github\own\存取資料庫\DB_test\Models\obj\Debug\Models.dll
+E:\github\own\存取資料庫\DB_test\Models\obj\Debug\Models.pdb
+E:\github\own\Web_0407\Web_0407\Models\bin\Debug\Models.dll
+E:\github\own\Web_0407\Web_0407\Models\bin\Debug\Models.pdb
+E:\github\own\Web_0407\Web_0407\Models\obj\Debug\Models.csprojResolveAssemblyReference.cache
+E:\github\own\Web_0407\Web_0407\Models\obj\Debug\Models.dll
+E:\github\own\Web_0407\Web_0407\Models\obj\Debug\Models.pdb
