@@ -1,0 +1,89 @@
+﻿@model List<JUIN.Models.Station>
+@{
+    Layout = "";
+    var UserName = ViewBag.Username;
+    var Stations = Model;
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <link href="~/Content/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <a class="btn btn-danger" href="#" role="button">Link</a>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="~/Content/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <h1>@UserName</h1>
+
+    <p>This is a p.</p>
+
+    <span>This is a p1.</span>
+    <br />
+    <span>This is a p2.</span>
+
+    <table class="table table-bordered">
+
+        <tr>
+            <td>#</td>
+            <td>ID</td>
+            <td>高度</td>
+        </tr>
+
+        @for (var i = 0; i < Stations.Count; i++)
+            {
+            <!--
+            <li>
+                @Model[i].StationIdentifier<br />
+                @Model[i].WaterLevel
+            </li>
+            -->
+            <tbody>
+                <tr>
+                    <td>@(i + 1)</td>
+                    <td>@Model[i].StationIdentifier</td>
+                    <td>@Model[i].WaterLevel</td>
+                </tr>
+            </tbody>
+        }
+    </table>
+
+    <table style="width:100%;border:1px solid red;">
+        <thead>
+            <tr>
+                <th style="border:1px solid red;">Firstname</th>
+                <th style="border:1px solid red;">Lastname</th>
+                <th style="border:1px solid red;">Age</th>
+            </tr>
+        </thead>
+        <tbody style="border:1px solid red;">
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">(@UserName) 共幾筆資料</td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+</body>
+</html>
